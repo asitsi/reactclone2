@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --red: #d70049;
+  --blue: #032656;
+  --lblue: #50759f;
+  --pink: #da0b4e;
+  --lpink: #de2460;
+  --black: #2d3954;
+  --green: #00ba74;
+  --lgray: #b2afad;
+  --gray: #75767a;
+  --dblue: #291b4f;
+  --yellow: #ffca08;
+}
+.RecentCoursesCategory {
+  background-color: #f4f5f7;
+}
+
+.RecentCoursesCategory_heading p {
+  text-align: center;
+  font-size: small;
+  color: var(--black);
+}
+.RecentCoursesCategory_heading h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.RecentCoursesCategory_heading h2::after {
+  content: "Instructor";
+  display: block;
+}
+.RecentCoursesCategory_heading h2 span {
+  color: var(--pink);
+  font-family: "Playfair Display", serif;
+}
+.RecentCoursesCard_navlink {
+  text-decoration: none;
+}
+.RecentCoursesCard_bg {
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.RecentCoursesCategory_card_image {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.RecentCoursesCategory_heading_color {
+  padding: 20px 15px;
+  color: var(--black);
+  font-size: 17px;
+  font-weight: 700 !important;
+  line-height: normal;
+}
+.RecentCoursesCategory_heading_color:hover {
+  padding: 20px 15px;
+  color: var(--pink);
+  font-size: 17px;
+  font-weight: 700 !important;
+  line-height: normal;
+}
+.RecentCoursesCategory_details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  color: var(--black);
+  margin-right: 1.2rem;
+}
+.RecentCoursesCategory_details_prop {
+  font-size: 10px;
+  padding: 3px;
+}
+.RecentCoursesCategory_info {
+  display: flex;
+  justify-content: space-around;
+}
+.RecentCoursesCategory_Avatar_image {
+  width: 60px;
+  border-radius: 50% 50%;
+  margin-right: 5px;
+}
+.RecentCoursesCategory_info_text {
+  font-size: 15px;
+  color: var(--black);
+  margin-left: 3px;
+}
+.RecentCoursesCategory_info_text:hover {
+  font-size: 15px;
+  color: var(--pink);
+  margin-left: 3px;
+}
+
+.RecentCoursesCategory_demo_btn {
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.RecentCoursesCategory_demo_btn:hover {
+  padding: 10px 18px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.RecentCoursesCategory_demo_btn_nav {
+  background-color: #e2f4ec;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #1ead7c;
+}
+.RecentCoursesCategory_demo_btn_nav:hover {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: var(--lpink);
+}
+
+.request_block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.request_block h1,
+p {
+  color: #fff;
+  font-weight: 700 !important;
+}
+.request_block_container {
+  background-color: var(--red);
+  width: 100%;
+  padding: 30px 30px;
+}
+.request_block_container2 {
+  background-color: var(--green);
+  width: 100%;
+  padding: 30px 30px;
+}
+.Request_block_navlink {
+  background-color: #fff;
+  color: var(--red);
+  padding: 20px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.Request_block_navlink:hover {
+  background-color: var(--lpink);
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.Request_block_navlink_small {
+  background-color: #fff;
+  color: var(--red);
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.Request_block_navlink_small:hover {
+  background-color: var(--lpink);
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
